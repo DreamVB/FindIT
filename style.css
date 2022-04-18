@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	font-family: "Segoe UI";
+	font-size: 1rem;
+	line-height: 1.5;
+	background-color: #f9f9f9;
+}
+
+.wrapper{
+	margin: 0 auto;
+	max-width: 840px;
+	text-align: center;
+}
+
+.container{
+	padding: 20px;
+	background-color: #eee;
+}
+
+.header{
+	font-size: 30px;
+	font-weight: 300;
+	color: #555;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.frm-input{
+	outline: 0;
+	border: 0;
+	padding: 8px 12px;
+	width: 75%;
+	 border: 1px solid #ced4da;
+	border-radius: 3px;
+	background-color: #fff;
+	color: #333;
+	margin-bottom: 10px;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.frm-input:focus{
+	 border-color: #80bdff;
+	 box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.frm-btn{
+	display: inline-block;
+	user-select: none;
+	width: 15%;
+	border: 0;
+	padding: 8px 12px;
+	border-radius: 3px;
+	border: 1px solid transparent;
+	background-color: #00bf5c;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btn{
+	display: inline-block;
+	border: 0;
+	padding: 8px 12px;
+	border-radius: 3px;
+	background-color: #00bf5c;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: #009a48;
+}
+
+.btn-orange{
+	background-color: #ffaa00!important;
+}
+
+.btn-orange:hover{
+	background-color: #c98600!important;
+}
+
+.frm-btn:hover{
+	background-color: #009a48;
+}
+
+.search-results{
+	text-align: left;
+}
+
+.search-results{
+	background-color: #fff;
+	border-top: 4px solid #ffef9b;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.search-results h2 a{
+	font-size: 24px;
+	font-weight: 400;
+	color: #00aa7f;
+	text-decoration: none;
+}
+
+.search-results h2 a:hover{
+	text-decoration: underline;
+}
+
+.search-results span{
+	display: block;
+	color: #888;
+	font-style: italic;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+
+.add-search{
+	text-align: right!important;
+	display: block;
+}
+
+a{
+	outline: none;
+}
+
+.add-search span a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #aa55ff;
+}
+
+.add-search span a:hover{
+	text-decoration: underline;
+	color: #763bb1;
+}
+
+.results-count{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.results-count span{
+	font-size: 1rem;
+	color: #c18100;
+	font-weight: 600!important;
+}
+
+.top-page{
+	text-decoration: none;
+	color: #9d4eeb;
+}
+
+.top-page:hover{
+	text-decoration: underline;
+	color: #8642c9;
+}
+
+img{
+	border: 0;
+}
+
+img{
+	vertical-align: middle;
+}
+.img-fuild{
+	max-width: 100%;
+}
+
+.logo{
+	display: block;
+	margin-bottom: 20px;
+}
